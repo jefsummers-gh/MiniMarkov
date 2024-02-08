@@ -17,7 +17,7 @@ class mini_markov :
         self.outdf = pd.DataFrame(columns=self._outcols)
         
     def __version__(self):
-        return '0.0.1'
+        return '0.1.1'
 
     def run(self, df, trials=100, epochs=100, startstate=0, log=None, logtype='none', seed=-1, progress=None) :
         """ 
